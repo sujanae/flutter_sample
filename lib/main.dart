@@ -68,16 +68,17 @@ class _HomePageState extends State<HomePage> {
                 autocorrect: false,
                 keyboardType: TextInputType.emailAddress,
                 decoration: const InputDecoration(
-                  hintText: 'Email goes here',
+                  hintText: 'Email goes here....',
                 ),
               ),
               TextField(
+                
                 controller: _password,
                 obscureText: true,
                 enableSuggestions: false,
                 autocorrect: false,
                 decoration:
-                    const InputDecoration(hintText: 'Password goes here'),
+                    const InputDecoration(hintText: 'Password goes here....'),
               ),
               TextButton(
                 onPressed: () async {
